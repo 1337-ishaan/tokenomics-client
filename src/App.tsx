@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ComprehensiveTokenomicsForm from './components/ComprehensiveTokenomicsForm';
+import { GlobalStyle, Header, Logo, NavLinks, NavLink } from './utils/styled';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyle />
+      <Header>
+        <Logo>tokenomics.ai</Logo>
+        <NavLinks>
+          <NavLink href="https://askishaancodes.notion.site/Tokenomics-AI-8fa0c2bd8ceb48cc9cd405b0738a05e1" target="_blank" rel="noopener noreferrer">Documentation</NavLink>
+          <NavLink href="https://twitter.com/tokenomicsai" target="_blank" rel="noopener noreferrer">Twitter (X)</NavLink>
+        </NavLinks>
+      </Header>
+      <ComprehensiveTokenomicsForm />
     </div>
   );
-}
+};
 
 export default App;
