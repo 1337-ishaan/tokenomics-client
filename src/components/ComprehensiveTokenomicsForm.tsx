@@ -113,7 +113,7 @@ const ComprehensiveTokenomicsForm: React.FC = () => {
               name="projectConcept"
               value={formData.projectConcept}
               onChange={handleInputChange}
-              placeholder="Describe your project idea simply"
+              placeholder="Describe your project idea"
             />
              <Input
               name="projectStage"
@@ -124,7 +124,7 @@ const ComprehensiveTokenomicsForm: React.FC = () => {
             <Input
               type="number"
               name="totalSupply"
-              value={formData.totalSupply}
+              // value={formData.totalSupply}
               onChange={handleInputChange}
               placeholder="Total Supply"
             />
@@ -155,7 +155,7 @@ const ComprehensiveTokenomicsForm: React.FC = () => {
               name="projectConcept"
               value={formData.projectConcept}
               onChange={handleInputChange}
-              placeholder="Describe your project idea simply"
+              placeholder="Describe your project idea"
             />
               <Input
               name="projectStage"
@@ -172,7 +172,7 @@ const ComprehensiveTokenomicsForm: React.FC = () => {
             <Input
               type="number"
               name="totalSupply"
-              value={formData.totalSupply}
+              // value={formData.totalSupply}
               onChange={handleInputChange}
               placeholder="Total Supply"
             />
